@@ -7,6 +7,8 @@
     font-family: 'Roboto-Regular';
     src: url(assets/fonts/Roboto-Regular.ttf);
 }
+
+/*index.html styles*/
 h1{
     font-family: 'Roboto-Bold';
     font-size: 40px;
@@ -43,7 +45,7 @@ ul li{
     font-family: 'Roboto-Regular';
 }
 
-.phone-signup{
+.phone{
     max-width:375px;
     justify-content: center;
     margin: 0 auto; 
@@ -77,6 +79,33 @@ ul li{
     font-size:15px;
     font-weight: 600;
     color:white;
-    background-color:rgb(47, 47, 59);
+    background-color:rgb(55, 55, 73);
+    cursor: pointer;
+}
+
+/*sub_phone_page.html styles*/
+.phone2{
+    max-width:350px;
+    justify-content: center;
+    margin: 0 auto; 
+    background-color: rgb(248, 249, 250);
+    padding:20px;
+    padding-top:100px;
+}
+.phone2 p{
+    line-height: 25px;
+    font-size:16px;
+}
+.phone2 span{
+    font-weight:600;
+}
+.phone2 button{
+    margin-top:200px;
+    margin-bottom: 20px;
+    padding:15px 120px;
+    border-radius:7px;
+    background-color:rgb(55, 55, 73);
+    color:white;
+    font-weight:600;
     cursor: pointer;
 }
